@@ -198,7 +198,7 @@ class Ship:
         self.dirY = 0;
         self.last_used = pygame.time.get_ticks()
         self.cooldown = 200
-        self.maxSpeed = 120;
+        self.maxSpeed = 12;
         self.rotate = False;
         self.altitude = 0;
     def show(self):
