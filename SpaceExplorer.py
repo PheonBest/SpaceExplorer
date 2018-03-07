@@ -578,7 +578,6 @@ def set_timeout(func, sec):
     t.start()
 
 while True:
-    global score;
     ast_already_in_screen = False;
     pygame.display.update()
     windowSurface.fill(BLACK)
