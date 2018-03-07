@@ -106,6 +106,20 @@ def currentUpdate():
     global current;
     current+=1;
 images = []
+images.append([])
+images.append([])
+images.append([])
+images.append([])
+images.append([])
+images.append([])
+images.append([])
+images.append([])
+images.append([])
+images.append([])
+images.append([])
+images.append([])
+images.append([])
+images.append([])
 fileNumber_expl=-1
 for file_name in os.listdir('images'):
     sub1=file_name
